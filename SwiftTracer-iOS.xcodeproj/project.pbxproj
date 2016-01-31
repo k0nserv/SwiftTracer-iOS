@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE04F2B3563C42FD9D3154ED /* Pods_SwiftTracer_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E417C5C3CDFD7C6BC970D955 /* Pods_SwiftTracer_iOS.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D6C58A861C5E36F400774985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C58A7D1C5E36F400774985 /* LaunchScreen.storyboard */; };
+		D6C58A871C5E36F400774985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C58A7F1C5E36F400774985 /* Main.storyboard */; };
+		D6C58A881C5E36F400774985 /* PixelRenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C58A811C5E36F400774985 /* PixelRenderView.swift */; };
+		D6C58A891C5E36F400774985 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C58A821C5E36F400774985 /* ViewController.swift */; };
+		D6C58A8B1C5E36F400774985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C58A841C5E36F400774985 /* AppDelegate.swift */; };
+		D6C58A8C1C5E36F400774985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C58A851C5E36F400774985 /* Assets.xcassets */; };
+		D6C58A911C5E370400774985 /* SwiftTracer_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C58A8E1C5E370100774985 /* SwiftTracer_iOSTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D68E88711C5D7D0B003D7464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D68E88541C5D7D0A003D7464 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D68E885B1C5D7D0A003D7464;
+			remoteInfo = "SwiftTracer-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4360A2A641FDDF72A24CBD11 /* Pods-SwiftTracer-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTracer-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTracer-iOS/Pods-SwiftTracer-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		4482FB5AB4E586EB761888D3 /* Pods-SwiftTracer-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTracer-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTracer-iOS/Pods-SwiftTracer-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D68E885C1C5D7D0B003D7464 /* SwiftTracer-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftTracer-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68E88701C5D7D0B003D7464 /* SwiftTracer-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftTracer-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C58A7E1C5E36F400774985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6C58A801C5E36F400774985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		D6C58A811C5E36F400774985 /* PixelRenderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PixelRenderView.swift; path = Sources/PixelRenderView.swift; sourceTree = SOURCE_ROOT; };
+		D6C58A821C5E36F400774985 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Sources/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		D6C58A831C5E36F400774985 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = SOURCE_ROOT; };
+		D6C58A841C5E36F400774985 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Sources/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		D6C58A851C5E36F400774985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Sources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		D6C58A8D1C5E370100774985 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/Info.plist; sourceTree = SOURCE_ROOT; };
+		D6C58A8E1C5E370100774985 /* SwiftTracer_iOSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftTracer_iOSTests.swift; path = Tests/SwiftTracer_iOSTests.swift; sourceTree = SOURCE_ROOT; };
+		E417C5C3CDFD7C6BC970D955 /* Pods_SwiftTracer_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTracer_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D68E88591C5D7D0A003D7464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE04F2B3563C42FD9D3154ED /* Pods_SwiftTracer_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68E886D1C5D7D0B003D7464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		620FBE6A102CADED68F10F50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E417C5C3CDFD7C6BC970D955 /* Pods_SwiftTracer_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D68E88531C5D7D0A003D7464 = {
+			isa = PBXGroup;
+			children = (
+				D68E885E1C5D7D0B003D7464 /* SwiftTracer-iOS */,
+				D68E88731C5D7D0B003D7464 /* SwiftTracer-iOSTests */,
+				D68E885D1C5D7D0B003D7464 /* Products */,
+				EC6C1679FEDD0A212FDDBD1F /* Pods */,
+				620FBE6A102CADED68F10F50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D68E885D1C5D7D0B003D7464 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D68E885C1C5D7D0B003D7464 /* SwiftTracer-iOS.app */,
+				D68E88701C5D7D0B003D7464 /* SwiftTracer-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D68E885E1C5D7D0B003D7464 /* SwiftTracer-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6C58A7C1C5E36F400774985 /* Base.lproj */,
+				D6C58A811C5E36F400774985 /* PixelRenderView.swift */,
+				D6C58A821C5E36F400774985 /* ViewController.swift */,
+				D6C58A831C5E36F400774985 /* Info.plist */,
+				D6C58A841C5E36F400774985 /* AppDelegate.swift */,
+				D6C58A851C5E36F400774985 /* Assets.xcassets */,
+			);
+			path = "SwiftTracer-iOS";
+			sourceTree = "<group>";
+		};
+		D68E88731C5D7D0B003D7464 /* SwiftTracer-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6C58A8D1C5E370100774985 /* Info.plist */,
+				D6C58A8E1C5E370100774985 /* SwiftTracer_iOSTests.swift */,
+			);
+			path = "SwiftTracer-iOSTests";
+			sourceTree = "<group>";
+		};
+		D6C58A7C1C5E36F400774985 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				D6C58A7D1C5E36F400774985 /* LaunchScreen.storyboard */,
+				D6C58A7F1C5E36F400774985 /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = Sources/Base.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		EC6C1679FEDD0A212FDDBD1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4482FB5AB4E586EB761888D3 /* Pods-SwiftTracer-iOS.debug.xcconfig */,
+				4360A2A641FDDF72A24CBD11 /* Pods-SwiftTracer-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D68E885B1C5D7D0A003D7464 /* SwiftTracer-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D68E88791C5D7D0B003D7464 /* Build configuration list for PBXNativeTarget "SwiftTracer-iOS" */;
+			buildPhases = (
+				6E48F854C9C29B430B9B7ECB /* Check Pods Manifest.lock */,
+				D68E88581C5D7D0A003D7464 /* Sources */,
+				D68E88591C5D7D0A003D7464 /* Frameworks */,
+				D68E885A1C5D7D0A003D7464 /* Resources */,
+				D1DD46963673CD8A6C398E79 /* Embed Pods Frameworks */,
+				231BCB5B56C34818ECA251EB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftTracer-iOS";
+			productName = "SwiftTracer-iOS";
+			productReference = D68E885C1C5D7D0B003D7464 /* SwiftTracer-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D68E886F1C5D7D0B003D7464 /* SwiftTracer-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D68E887C1C5D7D0B003D7464 /* Build configuration list for PBXNativeTarget "SwiftTracer-iOSTests" */;
+			buildPhases = (
+				D68E886C1C5D7D0B003D7464 /* Sources */,
+				D68E886D1C5D7D0B003D7464 /* Frameworks */,
+				D68E886E1C5D7D0B003D7464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D68E88721C5D7D0B003D7464 /* PBXTargetDependency */,
+			);
+			name = "SwiftTracer-iOSTests";
+			productName = "SwiftTracer-iOSTests";
+			productReference = D68E88701C5D7D0B003D7464 /* SwiftTracer-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D68E88541C5D7D0A003D7464 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Hugo Tunius";
+				TargetAttributes = {
+					D68E885B1C5D7D0A003D7464 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9T47CWAYUT;
+					};
+					D68E886F1C5D7D0B003D7464 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D68E885B1C5D7D0A003D7464;
+					};
+				};
+			};
+			buildConfigurationList = D68E88571C5D7D0A003D7464 /* Build configuration list for PBXProject "SwiftTracer-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D68E88531C5D7D0A003D7464;
+			productRefGroup = D68E885D1C5D7D0B003D7464 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D68E885B1C5D7D0A003D7464 /* SwiftTracer-iOS */,
+				D68E886F1C5D7D0B003D7464 /* SwiftTracer-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D68E885A1C5D7D0A003D7464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C58A861C5E36F400774985 /* LaunchScreen.storyboard in Resources */,
+				D6C58A871C5E36F400774985 /* Main.storyboard in Resources */,
+				D6C58A8C1C5E36F400774985 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68E886E1C5D7D0B003D7464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		231BCB5B56C34818ECA251EB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftTracer-iOS/Pods-SwiftTracer-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E48F854C9C29B430B9B7ECB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1DD46963673CD8A6C398E79 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftTracer-iOS/Pods-SwiftTracer-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D68E88581C5D7D0A003D7464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C58A8B1C5E36F400774985 /* AppDelegate.swift in Sources */,
+				D6C58A891C5E36F400774985 /* ViewController.swift in Sources */,
+				D6C58A881C5E36F400774985 /* PixelRenderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68E886C1C5D7D0B003D7464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C58A911C5E370400774985 /* SwiftTracer_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D68E88721C5D7D0B003D7464 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D68E885B1C5D7D0A003D7464 /* SwiftTracer-iOS */;
+			targetProxy = D68E88711C5D7D0B003D7464 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6C58A7D1C5E36F400774985 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6C58A7E1C5E36F400774985 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D6C58A7F1C5E36F400774985 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6C58A801C5E36F400774985 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D68E88771C5D7D0B003D7464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D68E88781C5D7D0B003D7464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D68E887A1C5D7D0B003D7464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4482FB5AB4E586EB761888D3 /* Pods-SwiftTracer-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.hugotunius.SwiftTracer-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D68E887B1C5D7D0B003D7464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4360A2A641FDDF72A24CBD11 /* Pods-SwiftTracer-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.hugotunius.SwiftTracer-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		D68E887D1C5D7D0B003D7464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SwiftTracer-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.hugotunius.SwiftTracer-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTracer-iOS.app/SwiftTracer-iOS";
+			};
+			name = Debug;
+		};
+		D68E887E1C5D7D0B003D7464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SwiftTracer-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.hugotunius.SwiftTracer-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTracer-iOS.app/SwiftTracer-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D68E88571C5D7D0A003D7464 /* Build configuration list for PBXProject "SwiftTracer-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68E88771C5D7D0B003D7464 /* Debug */,
+				D68E88781C5D7D0B003D7464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D68E88791C5D7D0B003D7464 /* Build configuration list for PBXNativeTarget "SwiftTracer-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68E887A1C5D7D0B003D7464 /* Debug */,
+				D68E887B1C5D7D0B003D7464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D68E887C1C5D7D0B003D7464 /* Build configuration list for PBXNativeTarget "SwiftTracer-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68E887D1C5D7D0B003D7464 /* Debug */,
+				D68E887E1C5D7D0B003D7464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D68E88541C5D7D0A003D7464 /* Project object */;
+}
